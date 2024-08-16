@@ -14,7 +14,15 @@ const config: Config = {
         },
         extend: {
             backgroundImage: {
-                "space-pattern": "url('/home/background-home-mobile.jpg')"
+                "space-pattern-mobile": "url('/home/background-home-mobile.jpg')",
+                "space-pattern-tablet": "url('/home/background-home-tablet.jpg')",
+                "space-pattern-desktop": "url('/home/background-home-desktop.jpg')",
+                "stars-pattern-mobile": "url('public/destination/background-destination-mobile.jpg')",
+                "stars-pattern-tablet": "url('public/destination/background-destination-tablet.jpg')",
+                "stars-pattern-desktop": "url('public/destination/background-destination-desktop.jpg')",
+                "moon-pattern-mobile": "url('public/crew/background-crew-mobile.jpg')",
+                "moon-pattern-tablet": "url('public/crew/background-crew-tablet.jpg')",
+                "moon-pattern-desktop": "url('public/crew/background-crew-desktop.jpg')",
             },
         },
     },
