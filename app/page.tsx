@@ -2,7 +2,7 @@ import Navigation from "@/app/components/nav";
 
 export default function Home() {
     return (
-        <div className="min-h-screen min-w-full bg-cover bg-space-pattern">
+        <div className="min-h-screen min-w-full bg-cover bg-space-pattern-mobile">
             <Navigation></Navigation>
             <main className="flex flex-col justify-center items-center text-white h-full">
                 <div className="flex flex-col w-full items-center justify-center p-6">
