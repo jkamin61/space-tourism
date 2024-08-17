@@ -9,7 +9,7 @@ export default function Home() {
                     <h3 className="mt-6 text-md font-barlow-condensed font-light tracking-wider">SO, YOU WANT TO TRAVEL
                         TO</h3>
                     <h1 className="my-6 font-bellefair font-thin font text-7xl tracking-tight">SPACE</h1>
-                    <p className="text-center font-light text-md">
+                    <p className="text-center font-light text-md text-space-blue-300">
                         Let’s face it; if you want to go to space, you might
                         as well genuinely go to outer space and not
                         hover kind of on the edge of it. Well sit back, and relax
@@ -17,9 +17,9 @@ export default function Home() {
                         this world experience!</p>
                 </div>
                 <div
-                    className="my-16 w-24 h-24 shrink-0 grow-0 rounded-full bg-white items-center flex justify-center hover:animate-pulse focus:animate-pulse ease-out hover:cursor-pointer">
+                    className="my-16 w-32 h-32 shrink-0 grow-0 rounded-full bg-white items-center flex justify-center hover:animate-pulse focus:animate-pulse ease-out hover:cursor-pointer">
                     <button
-                        className="font-bellefair text-black text-md">EXPLORE
+                        className="font-bellefair text-lg text-space-blue-900">EXPLORE
                     </button>
                 </div>
             </main>
