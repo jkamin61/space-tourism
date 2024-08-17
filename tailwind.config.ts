@@ -7,11 +7,6 @@ const config: Config = {
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
-        fontFamily: {
-            barlow: ['Barlow', 'regular'],
-            'barlow-condensed': ['Barlow Condensed', 'sans-serif'],
-            bellefair: ['Bellefair', 'regular'],
-        },
         extend: {
             backgroundImage: {
                 "space-pattern-mobile": "url('/home/background-home-mobile.jpg')",
@@ -23,6 +18,17 @@ const config: Config = {
                 "moon-pattern-mobile": "url('/crew/background-crew-mobile.jpg')",
                 "moon-pattern-tablet": "url('/crew/background-crew-tablet.jpg')",
                 "moon-pattern-desktop": "url('/crew/background-crew-desktop.jpg')",
+            }, fontFamily: {
+                barlow: ['Barlow', 'regular'],
+                'barlow-condensed': ['Barlow Condensed', 'sans-serif'],
+                bellefair: ['Bellefair', 'regular'],
+            },
+            colors: {
+                'space-blue-900': '#0B0D17',
+                'space-blue-300': '#D0D6F9'
+            },
+            height: {
+                '1px': '1px',
             },
         },
     },
