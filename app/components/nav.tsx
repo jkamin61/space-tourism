@@ -10,14 +10,6 @@ import Link from "next/link";
 const Navigation: React.FC = () => {
     const [menuVisible, setMenuVisible] = useState(false);
 
-    function showMenu() {
-        setMenuVisible(true);
-    }
-
-    function hideMenu() {
-        setMenuVisible(false);
-    }
-
     return (
         <>
             <header className="p-6 relative z-20">
@@ -26,7 +18,9 @@ const Navigation: React.FC = () => {
                         <Image src={logo} alt="Logo"/>
                     </div>
                     <div>
-                        <Image src={menu} onClick={showMenu} className="hover:cursor-pointer" alt="menu icon"/>
+                        <Image src={menu} onClick={() => {
+                            setMenuVisible(true)
+                        }} className="hover:cursor-pointer" alt="menu icon"/>
                     </div>
                 </div>
             </header>
@@ -34,7 +28,9 @@ const Navigation: React.FC = () => {
                 <div
                     className="z-30 h-full left-36 backdrop-blur-lg absolute p-2 flex flex-col gap-9 top-0 right-0 ease-in-out duration-1000 overflow-x-hidden">
                     <div className="flex justify-end p-6">
-                        <button className="hover:cursor-pointer" onClick={hideMenu}>
+                        <button className="hover:cursor-pointer" onClick={() => {
+                            setMenuVisible(false)
+                        }}>
                             <Image src={closeMenu} alt="close menu button"/>
                         </button>
                     </div>
