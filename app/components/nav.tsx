@@ -35,24 +35,24 @@ const Navigation: React.FC = () => {
                         </button>
                     </div>
                     <nav>
-                        <ul className="flex flex-col gap-4 text-white">
-                            <li className="flex items-center flex-row gap-2 text-xs">
+                        <ul className="flex flex-col gap-4 text-white text-md">
+                            <li className="flex items-center flex-row gap-2">
                                 <p className="font-bold">00</p>
                                 <Link href={"/"}
                                       className="font-barlow-condensed font-thin hover:cursor-pointer">HOME</Link>
                             </li>
-                            <li className="flex items-center flex-row gap-2 text-xs">
+                            <li className="flex items-center flex-row gap-2">
                                 <p className="font-bold">01</p>
                                 <Link href={"/destination"}
                                       className="font-barlow-condensed font-thin hover:cursor-pointer">DESTINATION
                                 </Link>
                             </li>
-                            <li className="flex items-center flex-row gap-2 text-xs">
+                            <li className="flex items-center flex-row gap-2">
                                 <p className="font-bold">02</p>
                                 <Link href={"/crew"}
                                       className="font-barlow-condensed font-thin hover:cursor-pointer">CREW</Link>
                             </li>
-                            <li className="flex items-center flex-row gap-2 text-xs">
+                            <li className="flex items-center flex-row gap-2">
                                 <p className="font-bold">03</p>
                                 <Link href={"/technology"}
                                       className="font-barlow-condensed font-thin hover:cursor-pointer">TECHNOLOGY
